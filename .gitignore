@@ -1,0 +1,18 @@
+# 虚拟环境与缓存
+.venv/
+__pycache__/
+
+# 隐私配置与环境变量
+.env
+
+# 占用空间极大的模型权重与编译文件
+*.pt
+*.safetensors
+*.engine
+*.onnx
+models/
+
+# 运行产生的大型临时文件或数据集
+datasets/
+*.csv
+*.json
