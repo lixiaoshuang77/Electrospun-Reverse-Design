@@ -15,4 +15,3 @@ models/
 # 运行产生的大型临时文件或数据集
 datasets/
 *.csv
-*.json
